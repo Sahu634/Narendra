@@ -15,7 +15,7 @@ public class Screenshot2 {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.facebook.com");
 		File scrfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(scrfile, new File("D:\\screenfb1.jpg"));
+		FileUtils.copyFile(scrfile, new File("D:\\screenfb2.jpg"));
 	}
 
 }
